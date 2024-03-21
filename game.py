@@ -46,11 +46,33 @@ if answer == "n" or "N" :
     print("\nYou drift further away and try screaming for help. You remember the quote from the movie Alien. 'In space, no one can hear you scream.'")
     goto .spacestation
 
-# If the input the player gives does NOT confine to the y/Y/n/N input keys. (due to our now applied case insensitivity)
+# If the input the player gives does NOT confine to the y/n or Y/N input keys. (due to our now applied case insensitivity)
 if answer2 != "y" or "Y" or "n" or "N" :
         print(Colour.red + Style.bold +  "\nInvalid option. Please use [y/n] input keys.")
         goto .spacestation
 
+print(Colour.grey + r```
+                 .       .                   .       .      .     .      .
+          .    .         .    .            .     ______
+      .           .             .               ////////
+                .    .   ________   .  .      /////////     .    .
+           .            |.____.  /\        ./////////    .
+    .                 .//      \/  |\     /////////
+       .       .    .//          \ |  \ /////////       .     .   .
+                    ||.    .    .| |  ///////// .     .
+     .    .         ||           | |//`,/////                .
+             .       \\        ./ //  /  \/   .
+  .                    \\.___./ //\` '   ,_\     .     .
+          .           .     \ //////\ , /   \                 .    .
+                       .    ///////// \|  '  |    .
+      .        .          ///////// .   \ _ /          .
+                        /////////                              .
+                 .   ./////////     .     .
+         .           --------   .                  ..             .
+  .               .        .         .                       .
+                        ________________________
+____________------------                        -------------_________
+```
 
 label .friend
 print(Colour.cyan + "\nYou see your friend Mike on the Space Station. You try flailing your arms and legs to grab his attention. \nThen you try your radio and he hears you. \nHe hears you and tries to grab your arm. You want to try it but you're scared.")
@@ -77,8 +99,3 @@ if retry == "n" or "N" :
 if answer2 != "y" or "Y" or "n" or "N" :
     print(Colour.red + Style.bold + "\nInvalid option. Please use [y/n] input keys.")
     goto .retryfriend
-        
-# Next scene coming soon.
-
-#label .
-        
